@@ -43,3 +43,48 @@ Percentage of the requests served within a certain time (ms)
   98%  32081
   99%  32238
  100%  52698 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.142.0.4 (be patient)
+
+
+Server Software:        Apache/2.4.18
+Server Hostname:        10.142.0.4
+Server Port:            80
+
+Document Path:          /Account
+Document Length:        12 bytes
+
+Concurrency Level:      100
+Time taken for tests:   33.323 seconds
+Complete requests:      1400
+Failed requests:        0
+Total transferred:      883378 bytes
+Total body sent:        250600
+HTML transferred:       16800 bytes
+Requests per second:    42.01 [#/sec] (mean)
+Time per request:       2380.236 [ms] (mean)
+Time per request:       23.802 [ms] (mean, across all concurrent requests)
+Transfer rate:          25.89 [Kbytes/sec] received
+                        7.34 kb/s sent
+                        33.23 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       2
+Processing:   156 2330 527.3   2473    3932
+Waiting:      156 2330 527.3   2473    3932
+Total:        156 2331 527.2   2473    3932
+
+Percentage of the requests served within a certain time (ms)
+  50%   2473
+  66%   2538
+  75%   2596
+  80%   2646
+  90%   2780
+  95%   2904
+  98%   3067
+  99%   3152
+ 100%   3932 (longest request)
