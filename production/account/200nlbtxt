@@ -43,3 +43,101 @@ Percentage of the requests served within a certain time (ms)
   98%  60851
   99%  61066
  100%  61645 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.142.0.4 (be patient)
+
+
+Server Software:        Apache/2.4.18
+Server Hostname:        10.142.0.4
+Server Port:            80
+
+Document Path:          /Account
+Document Length:        12 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   64.295 seconds
+Complete requests:      2000
+Failed requests:        1145
+   (Connect: 0, Receive: 0, Length: 1145, Exceptions: 0)
+Total transferred:      1272489 bytes
+Total body sent:        358000
+HTML transferred:       34305 bytes
+Requests per second:    31.11 [#/sec] (mean)
+Time per request:       32147.373 [ms] (mean)
+Time per request:       32.147 [ms] (mean, across all concurrent requests)
+Transfer rate:          19.33 [Kbytes/sec] received
+                        5.44 kb/s sent
+                        24.77 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0 1901 4182.9      0   31374
+Processing:   186 12404 16481.3   5363   61257
+Waiting:      186 12404 16481.3   5363   61257
+Total:        201 14305 18453.6   5915   64289
+
+Percentage of the requests served within a certain time (ms)
+  50%   5915
+  66%  12675
+  75%  18941
+  80%  28798
+  90%  45186
+  95%  59671
+  98%  60979
+  99%  61939
+ 100%  64289 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.142.0.4 (be patient)
+
+
+Server Software:        Apache/2.4.18
+Server Hostname:        10.142.0.4
+Server Port:            80
+
+Document Path:          /Account
+Document Length:        21 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   63.223 seconds
+Complete requests:      2000
+Failed requests:        103
+   (Connect: 0, Receive: 0, Length: 103, Exceptions: 0)
+Total transferred:      1279113 bytes
+Total body sent:        358000
+HTML transferred:       41073 bytes
+Requests per second:    31.63 [#/sec] (mean)
+Time per request:       31611.539 [ms] (mean)
+Time per request:       31.612 [ms] (mean, across all concurrent requests)
+Transfer rate:          19.76 [Kbytes/sec] received
+                        5.53 kb/s sent
+                        25.29 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  991 1541.8   1006    7282
+Processing:   269 7737 13977.6   1845   62199
+Waiting:      269 7737 13977.7   1845   62199
+Total:        269 8728 14145.5   2439   63213
+
+Percentage of the requests served within a certain time (ms)
+  50%   2439
+  66%   4748
+  75%  10149
+  80%  10782
+  90%  28137
+  95%  55514
+  98%  62008
+  99%  62980
+ 100%  63213 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.142.0.4 (be patient)
+Total of 1846 requests completed

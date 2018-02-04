@@ -1,0 +1,71 @@
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.142.0.4 (be patient)
+
+
+Server Software:        Apache/2.4.18
+Server Hostname:        10.142.0.4
+Server Port:            80
+
+Document Path:          /Account
+Document Length:        21 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   10.221 seconds
+Complete requests:      3
+Failed requests:        0
+Total transferred:      1921 bytes
+Total body sent:        35442
+HTML transferred:       63 bytes
+Requests per second:    0.29 [#/sec] (mean)
+Time per request:       3407128.000 [ms] (mean)
+Time per request:       3407.128 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.18 [Kbytes/sec] received
+                        3.39 kb/s sent
+                        3.57 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:     3027 3028   0.4   3028    3028
+Processing:  5893 6635 662.5   7006    7166
+Waiting:     5893 6635 662.5   7006    7166
+Total:       8920 9663 662.7  10034   10194
+
+Percentage of the requests served within a certain time (ms)
+  50%   9873
+  66%   9873
+  75%  10194
+  80%  10194
+  90%  10194
+  95%  10194
+  98%  10194
+  99%  10194
+ 100%  10194 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.142.0.4 (be patient)
+
+
+Server Software:        
+Server Hostname:        10.142.0.4
+Server Port:            80
+
+Document Path:          /Account
+Document Length:        0 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   0.578 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+Total body sent:        16647
+HTML transferred:       0 bytes
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.142.0.4 (be patient)
