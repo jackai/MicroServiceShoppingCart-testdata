@@ -1,0 +1,66 @@
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.142.0.2 (be patient)
+
+
+Server Software:        Apache/2.4.18
+Server Hostname:        10.142.0.2
+Server Port:            80
+
+Document Path:          /Account
+Document Length:        12 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   19.902 seconds
+Complete requests:      330
+Failed requests:        0
+Total transferred:      208244 bytes
+Total body sent:        174471
+HTML transferred:       3960 bytes
+Requests per second:    16.58 [#/sec] (mean)
+Time per request:       60307.936 [ms] (mean)
+Time per request:       60.308 [ms] (mean, across all concurrent requests)
+Transfer rate:          10.22 [Kbytes/sec] received
+                        8.56 kb/s sent
+                        18.78 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  171 667.9     15    3040
+Processing:  2226 11360 3601.9  10207   18941
+Waiting:     2217 11360 3602.2  10207   18941
+Total:       2241 11531 3777.0  10277   18957
+
+Percentage of the requests served within a certain time (ms)
+  50%  10277
+  66%  13355
+  75%  14919
+  80%  15622
+  90%  16923
+  95%  17871
+  98%  18326
+  99%  18531
+ 100%  18957 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.142.0.2 (be patient)
+
+
+Server Software:        
+Server Hostname:        10.142.0.2
+Server Port:            80
+
+Document Path:          /Account
+Document Length:        0 bytes
+
+Concurrency Level:      100
+Time taken for tests:   0.181 seconds
+Complete requests:      0
+Failed requests:        0
+Total transferred:      0 bytes
+Total body sent:        18700
+HTML transferred:       0 bytes
